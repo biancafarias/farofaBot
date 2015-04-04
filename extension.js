@@ -120,6 +120,6 @@
         }
     }));
 
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/motelbible/basicBot/master/basicBot.js', extend);
 
 }).call(this);
