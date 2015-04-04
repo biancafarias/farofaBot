@@ -66,7 +66,7 @@
         localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Farofinha Bot",
         language: "portuguese",
-        chatLink: "https://rawgit.com/motelbible/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/pt.json",
         startupCap: 1,
         startupVolume: 0,
         startupEmoji: false,
@@ -115,11 +115,11 @@
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/motelbible/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/motelbible/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
-    $.getScript('https://rawgit.com/yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/motelbible/basicBot/master/basicBot.js', extend);
 
 }).call(this);
