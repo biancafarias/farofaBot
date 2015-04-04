@@ -1,12 +1,18 @@
 (function () {
-
+    
+    var fork = "motelbible";
+		
+		
     function extend() {
+        
         if (!window.bot) {
             return setTimeout(extend, 1 * 1000);
         }
 
+
         var bot = window.bot;
-        
+
+
         bot.retrieveSettings();
 
         bot.commands.cookieCommand.cookies =['deu-lhe um biscoito de chocolate!',
@@ -60,7 +66,7 @@
         localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Farofinha Bot",
         language: "portuguese",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/pt.json",
         startupCap: 1,
         startupVolume: 0,
         startupEmoji: false,
@@ -109,8 +115,8 @@
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
