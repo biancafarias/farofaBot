@@ -95,7 +95,7 @@
                 ["mix", "Você tocou um mix (muito longo) - não permitido. "],
                 ["som", "A música que você tocou tinha má qualidade ou estava sem som. "],
                 ["nsfw", "A música que você tocou é NSFW (impróprio). "],
-                ["indisponivel", "A música que você tocou está indisponível. "]
+                ["indisponivel", "A música que você tocou está indisponível! "]
             ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
